@@ -5,12 +5,12 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.List;
 import java.util.Properties;
 
-public class ProducerDemoWithCallback {
+public class ProducerDemoKeys {
 
-    static final Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
-
+    static final Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
 
     public static void main(String[] args) {
 
@@ -30,10 +30,17 @@ public class ProducerDemoWithCallback {
         // create producer
         KafkaProducer producer = new KafkaProducer<String, String>(props);
 
+        // read data from a file in the resource folder
+        ReadResourceFile readResourceFile = new ReadResourceFile();
+        String fileName = "producerkey.txt";
+        List<String> lines = readResourceFile.read(fileName);
 
         // send data - async
-        for (int i=0; i<10; ++i) {
-            ProducerRecord record = new ProducerRecord<String, String>(topic, "hello world callback - " + Integer.toString(i));
+        for (String line:lines) {
+            String key = line.split(";")[0];
+            String val = line.split(";")[1];
+
+            ProducerRecord record = new ProducerRecord<String,String>(topic, key, val);
 
             producer.send(record, new Callback() {
                 @Override
