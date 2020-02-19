@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df92e12e-f1d8-493b-be7a-0618c395f396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoKeys$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoKeys$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoKeys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoWithCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoWithCallback$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoWithCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ProducerDemoWithCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ReadResourceFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/ReadResourceFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/kafka/basic/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/producerkey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/producerkey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ConsumerDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,14 +23,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="java" value="2495" />
+          <entry key="java" value="2511" />
           <entry key="txt" value="96" />
           <entry key="xml" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2495" />
+          <entry key="JAVA" value="2511" />
           <entry key="PLAIN_TEXT" value="114" />
           <entry key="XML" value="116" />
         </counts>
@@ -66,21 +56,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ConsumerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="51" column="58" lean-forward="true" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+            <state relative-caret-position="320">
+              <caret line="32" column="92" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1548#1564#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemoWithCallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="46" column="83" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="46" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -370,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ConsumerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="51" column="58" lean-forward="true" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        <state relative-caret-position="320">
+          <caret line="32" column="92" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1548#1564#0" expanded="true" />
