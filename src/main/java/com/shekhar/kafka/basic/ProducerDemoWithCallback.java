@@ -9,9 +9,10 @@ import java.util.Properties;
 
 public class ProducerDemoWithCallback {
 
+    static final Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
+
 
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
 
         String hostUrl = "localhost:9092";
 
