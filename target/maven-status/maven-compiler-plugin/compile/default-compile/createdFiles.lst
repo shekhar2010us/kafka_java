@@ -4,4 +4,5 @@ com/shekhar/kafka/basic/ProducerDemo.class
 com/shekhar/kafka/basic/ProducerDemoWithCallback.class
 com/shekhar/kafka/basic/ProducerDemoKeys$1.class
 com/shekhar/kafka/basic/ProducerDemoKeys.class
+com/shekhar/kafka/basic/ConsumerGroupsDemo.class
 com/shekhar/kafka/basic/ProducerDemoWithCallback$1.class
