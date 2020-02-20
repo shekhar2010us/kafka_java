@@ -30,7 +30,7 @@ public class FileProducer {
 
         // create producer
         String topic = "movie_topic";
-//        KafkaProducer<String, String> producer = createProducer();
+        KafkaProducer<String, String> producer = createProducer();
 
 
         // send data to producer
@@ -41,17 +41,16 @@ public class FileProducer {
             if (json.has("class")) {
                 key = json.getString("class");
             }
-            System.out.println(topic + " >> " + key + " >> " + msg);
 
 //            logger.info(msg);
-//            producer.send(new ProducerRecord<>(topic, null, msg), new Callback() {
-//                @Override
-//                public void onCompletion(RecordMetadata recordMetadata, Exception e) {
-//                    if (e != null) {
-//                        logger.error("something bad happended.", e);
-//                    }
-//                }
-//            });
+            producer.send(new ProducerRecord<>(topic, key, msg), new Callback() {
+                @Override
+                public void onCompletion(RecordMetadata recordMetadata, Exception e) {
+                    if (e != null) {
+                        logger.error("something bad happended.", e);
+                    }
+                }
+            });
         }
 
         logger.info("end");

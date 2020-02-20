@@ -1,7 +1,11 @@
-com/shekhar/kafka/basic/ConsumerDemo.class
 com/shekhar/kafka/basic/ReadResourceFile.class
-com/shekhar/kafka/basic/ProducerDemo.class
 com/shekhar/kafka/basic/ProducerDemoWithCallback.class
 com/shekhar/kafka/basic/ProducerDemoKeys$1.class
+com/shekhar/kafka/twitter/TwitterProducer.class
+com/shekhar/kafka/basic/ConsumerDemo.class
+com/shekhar/kafka/basic/ProducerDemo.class
+com/shekhar/kafka/file/FileProducer$1.class
+com/shekhar/kafka/file/FileProducer.class
 com/shekhar/kafka/basic/ProducerDemoKeys.class
+com/shekhar/kafka/twitter/TwitterProducer$1.class
 com/shekhar/kafka/basic/ProducerDemoWithCallback$1.class
