@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df92e12e-f1d8-493b-be7a-0618c395f396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ConsumerGroupsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,36 +24,68 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="java" value="2511" />
+          <entry key="java" value="3188" />
+          <entry key="properties" value="59" />
           <entry key="txt" value="96" />
-          <entry key="xml" value="116" />
+          <entry key="xml" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2511" />
+          <entry key="JAVA" value="3188" />
           <entry key="PLAIN_TEXT" value="114" />
-          <entry key="XML" value="116" />
+          <entry key="Properties" value="59" />
+          <entry key="XML" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
-          <entry key="txt" value="3" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="22" />
+          <entry key="properties" value="1" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="22" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/twitter/TwitterProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1220#1228#0" expanded="true" />
+                <element signature="method#createTwitterClient#0;class#TwitterProducer#0" />
+                <element signature="method#createProducer#0;class#TwitterProducer#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="28" column="74" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="28" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,8 +106,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemoKeys.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ReadResourceFile.java" />
         <option value="$PROJECT_DIR$/src/main/resources/producerkey.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ConsumerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/credentials.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/twitter/TwitterProducer.java" />
       </list>
     </option>
   </component>
@@ -107,9 +143,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="45" />
-    <option name="y" value="39" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="23" />
     <option name="width" value="1354" />
     <option name="height" value="755" />
   </component>
@@ -152,7 +188,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafkajavalab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_java_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafkajavalab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_java_lab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafkajavalab" type="b2602c69:ProjectViewProjectNode" />
@@ -197,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemo">
+  <component name="RunManager" selected="Application.TwitterProducer">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shekhar.kafka.basic.ConsumerDemo" />
       <module name="kafka_java_lab" />
@@ -219,13 +273,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shekhar.kafka.twitter.TwitterProducer" />
+      <module name="kafka_java_lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ProducerDemo" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Application.TwitterProducer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwitterProducer" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ProducerDemo" />
@@ -250,11 +313,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="39" width="1354" height="755" extended-state="1" />
+    <frame x="15" y="23" width="1354" height="755" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27362806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25533536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -263,7 +327,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3283859" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24585219" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3800905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,23 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemoWithCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -337,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/producerkey.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemoKeys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-257">
@@ -355,6 +395,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/producerkey.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/credentials.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="74" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="28" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/twitter/TwitterProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1228#0" expanded="true" />
+            <element signature="method#createTwitterClient#0;class#TwitterProducer#0" />
+            <element signature="method#createProducer#0;class#TwitterProducer#0" />
+          </folding>
         </state>
       </provider>
     </entry>
