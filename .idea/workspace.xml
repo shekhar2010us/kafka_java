@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df92e12e-f1d8-493b-be7a-0618c395f396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/basic/ProducerDemoKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/elasticsearch/ElasticsearchConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/elasticsearch/ElasticsearchConsumer.java" afterDir="false" />
-    </list>
+    <list default="true" id="df92e12e-f1d8-493b-be7a-0618c395f396" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/elasticsearch/ElasticsearchConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="70" column="112" selection-start-line="70" selection-start-column="112" selection-end-line="70" selection-end-column="112" />
+            <state relative-caret-position="134">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -506,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/elasticsearch/ElasticsearchConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="70" column="112" selection-start-line="70" selection-start-column="112" selection-end-line="70" selection-end-column="112" />
+        <state relative-caret-position="134">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="35" />
         </state>
       </provider>
     </entry>
