@@ -37,11 +37,10 @@ public class FileProducer {
         for (String msg : lines) {
 
             JSONObject json = new JSONObject(msg);
-            String key = "no-class";
-            if (json.has("class")) {
-                key = json.getString("class");
+            String key = "no-id";
+            if (json.has("_id")) {
+                key = json.getString("_id").trim();
             }
-            String val = key+ "-" + msg;
 
             try {
                 Thread.sleep(1000);
@@ -50,7 +49,7 @@ public class FileProducer {
             }
 
 //            logger.info(msg);
-            producer.send(new ProducerRecord<>(topic, key, val), new Callback() {
+            producer.send(new ProducerRecord<>(topic, key, msg), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                     if (e != null) {
