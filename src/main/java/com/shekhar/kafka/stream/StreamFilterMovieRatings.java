@@ -1,8 +1,6 @@
 package com.shekhar.kafka.stream;
 
-import com.fasterxml.jackson.core.JsonParser;
 import com.shekhar.kafka.basic.ReadResourceFile;
-import org.apache.kafka.common.protocol.types.Field;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
@@ -46,12 +44,7 @@ public class StreamFilterMovieRatings {
                 (k, jsonRating) -> processRating(jsonRating)
         );
 
-//        KStream<String, String> filteredStream = inputTopic.filter(
-//                (k, jsonRating) -> processor(jsonRating) > 10
-//        );
-
         mappedStream.to(newTopic);
-//        filteredStream.to(newTopic);
 
         // build stream topology
         KafkaStreams kafkaStreams = new KafkaStreams(
@@ -62,17 +55,12 @@ public class StreamFilterMovieRatings {
         // start stream application
         kafkaStreams.start();
 
-
     }
 
     private static List<String> readFileInList(String fileName) {
         ReadResourceFile readResourceFile = new ReadResourceFile();
         List<String> lines = readResourceFile.read(fileName);
         return lines;
-    }
-
-    private static Integer processor(String ratingJson) {
-        return -10;
     }
 
     private static String processRating(String ratingJson) {
