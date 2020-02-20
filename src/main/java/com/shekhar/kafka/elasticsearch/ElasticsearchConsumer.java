@@ -68,7 +68,7 @@ public class ElasticsearchConsumer {
             for (ConsumerRecord record: records) {
                 // insert data to elasticsearch
 
-                IndexRequest indexRequest = new IndexRequest("movie", "rating").source(record.value(), XContentType.JSON);
+                IndexRequest indexRequest = new IndexRequest("movie", "rating").source(record.value().toString(), XContentType.JSON);
 
                 try {
                     IndexResponse indexResponse = client.index(indexRequest, RequestOptions.DEFAULT);

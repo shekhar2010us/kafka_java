@@ -15,7 +15,6 @@ public class ProducerDemoKeys {
     public static void main(String[] args) {
 
         String hostUrl = "localhost:9092";
-
         String topic = "first_topic";
 
 
