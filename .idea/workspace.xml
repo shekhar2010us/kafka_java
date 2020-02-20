@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df92e12e-f1d8-493b-be7a-0618c395f396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/movie_reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movie_reviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,25 +72,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+            <state relative-caret-position="427">
+              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/movie_reviews.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="4200" lean-forward="true" selection-start-line="4200" selection-end-line="4200" />
             </state>
           </provider>
         </entry>
@@ -120,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/twitter/TwitterProducer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/credentials.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/movie_reviews.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java" />
       </list>
     </option>
   </component>
@@ -471,22 +462,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/movie_reviews.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="4200" lean-forward="true" selection-start-line="4200" selection-end-line="4200" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/kafka/file/FileProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="427">
+          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#282#283#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movie_reviews.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="4200" lean-forward="true" selection-start-line="4200" selection-end-line="4200" />
         </state>
       </provider>
     </entry>
