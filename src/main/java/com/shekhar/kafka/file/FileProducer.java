@@ -41,6 +41,7 @@ public class FileProducer {
             if (json.has("class")) {
                 key = json.getString("class");
             }
+            String val = key+ "-" + msg;
 
             try {
                 Thread.sleep(1000);
@@ -49,7 +50,7 @@ public class FileProducer {
             }
 
 //            logger.info(msg);
-            producer.send(new ProducerRecord<>(topic, key, msg), new Callback() {
+            producer.send(new ProducerRecord<>(topic, key, val), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                     if (e != null) {
