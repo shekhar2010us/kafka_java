@@ -42,6 +42,12 @@ public class FileProducer {
                 key = json.getString("class");
             }
 
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                logger.error("Error in sleep: " , e);
+            }
+
 //            logger.info(msg);
             producer.send(new ProducerRecord<>(topic, key, msg), new Callback() {
                 @Override
