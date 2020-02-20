@@ -44,7 +44,7 @@ public class ReadResourceFile {
             BufferedReader br = new BufferedReader(reader); {
                 String line;
                 while ((line = br.readLine()) != null) {
-                    lines.add(line);
+                    lines.add(line.trim());
                 }
             }
         } catch (Exception e) {

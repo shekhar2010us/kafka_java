@@ -21,7 +21,7 @@ public class FileProducer {
     }
 
     public void run() {
-        logger.info("setup");
+        logger.info("setup the application");
 
         ReadResourceFile readResourceFile = new ReadResourceFile();
         String fileName = "movie_reviews.txt";
@@ -34,27 +34,36 @@ public class FileProducer {
 
 
         // send data to producer
+        int N=0;
         for (String msg : lines) {
+            N++;
 
             JSONObject json = new JSONObject(msg);
+            String key = "";
+            String value = "";
+            if (json.has("class")) {
+                key = json.getString("class") + "_" + N;
+            }
+            value = msg;
+            logger.info(key, value);
+
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 logger.error("Error in sleep: " , e);
             }
 
-//            logger.info(msg);
-            producer.send(new ProducerRecord<>(topic, msg), new Callback() {
+            producer.send(new ProducerRecord<>(topic, key, value), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                     if (e != null) {
-                        logger.error("something bad happended.", e);
+                        logger.error("something wrong happended.", e);
                     }
                 }
             });
         }
 
-        logger.info("end");
+        logger.info("end of the application");
     }
 
     public KafkaProducer<String, String> createProducer() {

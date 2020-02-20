@@ -1,6 +1,7 @@
 com/shekhar/kafka/basic/ReadResourceFile.class
 com/shekhar/kafka/basic/ProducerDemoWithCallback.class
 com/shekhar/kafka/basic/ProducerDemoKeys$1.class
+com/shekhar/kafka/stream/StreamFilterMovieRatings.class
 com/shekhar/kafka/elasticsearch/ElasticsearchConsumer.class
 com/shekhar/kafka/elasticsearch/ElasticsearchTest.class
 com/shekhar/kafka/elasticsearch/ElasticsearchTest$1.class
